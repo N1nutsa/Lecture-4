@@ -1,0 +1,51 @@
+/* ლექცია 4*/
+/* 
+padding - კონტენტის დაშორება შიდა კიდეებიდან. ოთხივე გვერდიდან ერთნაირად
+შეიძლება იყოს padding top, left, rigt, bottom. ასევე ამ თანმიმდევრობით შეიძლება პირდაპირ რიცხვები დავწეროთ. მწვანე არის ინსფექთში
+
+margin - გარე დაშორება - ნარინჯისფერია ინსფექთში
+border - ჩარჩო
+border radius - კიდეების დამრგვალება
+
+კიდეებიდან დაშორება რომ არ გვქონდეს თავიდანვე ვიწყებთ წერას ასე:
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+display:flex - ბლოკურიდან გადავიყვანოთ ხაზოვანში- ანუ გვერდიგვერდ რომ იყოს. ინსფექტში არის იასამნისფრად. 
+gap: - დაშორება ბოქსებს შორის რამდენი პხ.
+flex-direction არის row ან column
+
+
+*/
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main_box {
+  display: flex;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  padding: 20px;
+  margin: 30px;
+  border: 3px solid red;
+  border-radius: 10px;
+}
+h1 {
+  color: white;
+}
+
+.box_1 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  padding: 20px;
+  margin: 30px;
+  border: 3px solid green;
+  border-radius: 10px;
+}
